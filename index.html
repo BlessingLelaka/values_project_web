@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Values Project</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> \
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        <!--<script>alert("Hi");</script>-->
+    </head>
+    <body>
+       
+        <!--
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyDSdfb-mAPqCkQRDrtPNNV6DjXvu-k0geM",
+              authDomain: "values-project-3b188.firebaseapp.com",
+              projectId: "values-project-3b188",
+              storageBucket: "values-project-3b188.appspot.com",
+              messagingSenderId: "1343861824",
+              appId: "1:1343861824:web:5da834e6794a924cef1ba5",
+              measurementId: "G-ZXPV0E6CMZ"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            //const analytics = getAnalytics(app);
+            const database = firebase.database();
+
+            document.getElementById("contactForm").addEventListener("submit", submitForm);
+
+            function submitForm(e) {
+            e.preventDefault();
+            var name = document.getElementById('name');
+            var email = document.getElementById('email');
+            console.log(name,email);
+            }
+           
+            
+          </script>-->
+        <div class="wrapper">
+           
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="brand">
+                                <a href="index.html">
+                                    <img src="img/values_project_logo.png" alt="Logo">
+                                </a>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="topbar">
+                                
+                                <div class="topbar-col">
+                                    <div class="topbar-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+           
+            <div class="main">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2>The </h2>
+                            <h2><span>Values</span> Project </h2>
+                            <p>“Having a purpose and knowing exactly what your values are will add additional years to your life.”- Dan Buettner </p>
+                            <a href=""><img class="btn" src="img/playstore.png">Download Now</a>
+                            <a href=""> <img class="btn" src="img/app-store.png">Download Now</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/app.png" alt="Image">
+                            <img src="img/app2.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+         
+            <div class="aboutus">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/hands2 .jpg" alt="Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">About US </h2>
+                            <p>
+                                The Values Project is  a motivational Mobile Application to help better the lives of people and society
+                                The app will provide a learning platform for users to learn and apply valuable lessons in their lives.
+                            </p>
+                            <p>
+                                The app will display 52 weekly value principles with one topic being expanded on at a time with daily messages.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+                           
+           
+
+    <div class="aboutus">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/contact.jpg" alt="Image">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title">Contact Us </h2>
+                                <div class="card">
+                                    <div class="card-header">Get in touch with us</div>
+                                    <div class="card-body">
+                                        <form action="" id="contactForm">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control form-control-sm" placeholder="Name" id="name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="email" class="form-control form-control-sm" placeholder="Email" id="email">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="tel" class="form-control form-control-sm" placeholder="Phone" id="phone">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control form-control-sm" placeholder="Subject" id="subject">
+                                            </div>
+                                            <div class="mb-3">
+                                                <textarea rows="5" class="form-control form-control-sm" placeholder="Your Message"id="message"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="submit" class="btn btn-success btn-sm" value="Send Message">
+                                                <button type="submit">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widget">
+                        <h5>Follow us</h5>
+                        <ul>
+                            <li><a href=" ">Facebook</a></li>
+                            <li><a href=" ">Instagram</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
