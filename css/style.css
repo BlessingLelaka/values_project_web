@@ -450,7 +450,7 @@ section.copy p{
 }
 
 .service-item:hover .service-text {
-    background:#00539C;
+    background: rgba(15, 66, 41, .6);
 }
 
 .service-item .service-text h4,
